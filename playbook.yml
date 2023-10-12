@@ -6,7 +6,7 @@
   tasks:
     - name: Copy app files to frontend machine
       ansible.posix.synchronize:
-        src: /home/ubuntu/ansible-exercise/app
+        src: ./app
         dest: /home/ubuntu
         rsync_opts:
           - "--exclude=**/python"
@@ -27,7 +27,7 @@
   tasks:
     - name: Copy python files from app directory
       ansible.posix.synchronize:
-        src: /home/ubuntu/ansible-exercise/app/python
+        src: ./app/python
         dest: /home/ubuntu
         rsync_opts:
           - "--exclude=**/venv"
