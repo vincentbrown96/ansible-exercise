@@ -1,11 +1,11 @@
 [frontend]
-18.223.134.96 ansible_user=ubuntu ansible_ssh_private_key_file=privkey.pem
+18.223.134.96 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/privkey.pem
 
 [backend]
-18.216.223.28 ansible_user=ubuntu ansible_ssh_private_key_file=privkey.pem
+18.216.223.28 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/privkey.pem
 
 [database]
-18.220.134.79 ansible_user=ubuntu ansible_ssh_private_key_file=privkey.pem
+18.220.134.79 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/privkey.pem
 
 
 
